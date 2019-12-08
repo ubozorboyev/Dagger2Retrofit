@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <TextView
+         android:textStyle="bold"
+         android:textSize="18sp"
+         android:textColor="#000"
+         android:text="Name :"
+         android:padding="8dp"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"/>
+
+     <TextView
+         android:id="@+id/name"
+         android:text="@string/app_name"
+         android:padding="8dp"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="3"/>
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:text="Country :"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/country"
+            android:text="@string/app_name"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:text="City :"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/city"
+            android:text="@string/app_name"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
